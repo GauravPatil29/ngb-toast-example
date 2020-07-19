@@ -1,0 +1,24 @@
+{
+    "name": "ngb-toast",
+    "version": "0.0.3",
+    "peerDependencies": {
+        "@angular/common": "^9.1.11",
+        "@angular/core": "^9.1.11"
+    },
+    "dependencies": {
+        "tslib": "^1.10.0"
+    },
+    "keywords": [
+        "toast",
+        "angular",
+        "angular2",
+        "ngb-toast",
+        "typescript",
+        "alert",
+        "notifications",
+        "ngx",
+        "ngb",
+        "ng",
+        "ng2"
+    ]
+}
