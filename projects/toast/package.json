@@ -1,9 +1,11 @@
 {
     "name": "ngb-toast",
-    "version": "0.0.3",
+    "version": "0.0.6",
     "peerDependencies": {
         "@angular/common": "^9.1.11",
-        "@angular/core": "^9.1.11"
+        "@angular/core": "^9.1.11",
+        "@angular/platform-browser": "~9.1.9",
+        "rxjs": "~6.5.4"
     },
     "dependencies": {
         "tslib": "^1.10.0"

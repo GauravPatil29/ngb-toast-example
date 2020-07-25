@@ -27,7 +27,7 @@ export class NgbToastComponent implements OnInit {
     if (time) {
       setTimeout(() => {
         this.isHidden = true;
-        this.toast.onDismiss();
+        if(this.toast.onDismiss) this.toast.onDismiss();
         setTimeout(() => { this.ngbToastService.remove(this.toast); }, 500);
       }, time);
     }
@@ -35,7 +35,7 @@ export class NgbToastComponent implements OnInit {
 
   dismiss(): void {
     this.isHidden = true;
-    this.toast.onDismiss();
+    if(this.toast.onDismiss) this.toast.onDismiss();
     setTimeout(() => { this.ngbToastService.remove(this.toast); }, 500);
   }
 }
