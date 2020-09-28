@@ -1,6 +1,0 @@
-<div class="ngb-toast-container" class="{{toast.toastType}}" [ngClass]="{ 'dismissible' : toast.dismissible, 'hideToast': isHidden }">
-    {{toast.text}}
-    <button type="button" *ngIf="toast.dismissible" (click)="dismiss()" class="closebtn" aria-label="Close">
-        <span aria-hidden="true">x</span>
-    </button>
-</div>
