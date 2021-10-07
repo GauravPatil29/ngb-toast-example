@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     const toast_1: NgbToast = {
       toastType: NgbToastType.Success,
-      text: "Gaurav",
+      text: "This is an sample success alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
 
     const toast_2: NgbToast = {
       toastType: NgbToastType.Info,
-      text: "Gaurav",
+      text: "This is an sample information alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
 
     const toast_3: NgbToast = {
       toastType: NgbToastType.Warning,
-      text: "Gaurav",
+      text: "This is an sample warning alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
 
     const toast_4: NgbToast = {
       toastType: NgbToastType.Danger,
-      text: "Gaurav",
+      text: "This is an sample danger alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
 
     const toast_5: NgbToast = {
       toastType: NgbToastType.Primary,
-      text: "Gaurav",
+      text: "This is an sample primary alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
 
     const toast_6: NgbToast = {
       toastType: NgbToastType.Secondary,
-      text: "Gaurav",
+      text: "This is an sample secondary alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -73,7 +73,7 @@ export class AppComponent implements OnInit {
 
     const toast_7: NgbToast = {
       toastType: NgbToastType.Light,
-      text: "Gaurav",
+      text: "This is an sample light alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
@@ -83,7 +83,7 @@ export class AppComponent implements OnInit {
 
     const toast_8: NgbToast = {
       toastType: NgbToastType.Dark,
-      text: "Gaurav",
+      text: "This is an sample dark alert!!",
       dismissible: true,
       onDismiss: () => {
         console.log("Toast dismiss");
